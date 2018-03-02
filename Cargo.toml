@@ -1,0 +1,11 @@
+[package]
+name = "simple-async-serial"
+version = "0.1.0"
+authors = ["David Ko <david@barobo.com>"]
+
+[dependencies]
+serialport = "*"
+simple_logger = "*"
+log = "*"
+tokio-io = "*"
+futures = "*"
